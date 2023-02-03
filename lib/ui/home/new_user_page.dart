@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../../data/models/new_user.dart';
+import '../../di/service_locator.dart';
+import 'controller.dart';
+import 'widgets/add_user_form.dart';
 
 class NewUserPage extends StatefulWidget {
   const NewUserPage({

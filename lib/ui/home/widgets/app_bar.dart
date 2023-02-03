@@ -1,5 +1,6 @@
-import 'package:dio_blog/ui/home/new_user_page.dart';
 import 'package:flutter/material.dart';
+
+import '../new_user_page.dart';
 
 class BaseAppBar extends StatelessWidget with PreferredSizeWidget {
   const BaseAppBar({

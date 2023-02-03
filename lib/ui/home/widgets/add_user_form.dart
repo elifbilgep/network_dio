@@ -1,12 +1,9 @@
-import 'package:dio_blog/ui/home/controller.dart';
 import 'package:flutter/material.dart';
 
+import '../controller.dart';
+
 class UserForm extends StatelessWidget {
-  const UserForm(
-      {Key? key,
-      required this.homeController,
-      this.isUpdate = false,
-      required this.onSubmit})
+  const UserForm({Key? key, required this.homeController, this.isUpdate = false, required this.onSubmit})
       : super(key: key);
 
   final HomeController homeController;
